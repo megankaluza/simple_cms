@@ -11,8 +11,7 @@ _Objectives_
 
 * _Create app using Ruby on Rails._
 
-## _This README would normally document whatever steps are necessary to get the
-application up and running._
+## _This README would normally document whatever steps are necessary to get the application up and running._
 
 Things you may want to cover:
 
