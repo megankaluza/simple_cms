@@ -2,8 +2,14 @@
 
 #### By _**Megan Kaluza**_
 
-# _Live_
+# _Subjects_
 ![screenshot](app/assets/images/screen_shot.png)
+
+# _Show_
+![screenshot](app/assets/images/show.png)
+
+# _Edit_
+![screenshot](app/assets/images/edit.png)
 
 ## Description
 
