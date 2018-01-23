@@ -9,26 +9,27 @@
 
 _Objectives_
 
-* _Create app using Ruby on Rails._
+* _Create an app using Ruby on Rails._
 
-## _This README would normally document whatever steps are necessary to get the application up and running._
+# _Setup/Installation Requirements_
 
-Things you may want to cover:
+* Ruby version 2.5.0
 
-* Ruby version
+* Install xcode: xcode-select --install
 
-* System dependencies
+* Install Homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Install Ruby: brew install rbenv
 
-* Configuration
+* Install/Update RubyGems: gem update --system
 
-* Database creation
+* Install Rails: gem install rails
 
-* Database initialization
+* Install MySQL: brew install mysql
 
-* How to run the test suite
+# _Launch Server_
 
-* Services (job queues, cache servers, search engines, etc.)
+* Clone this repository https://github.com/megankaluza/simple_cms.git
 
-* Deployment instructions
+* Launch server: rails s
 
-* ...
+* Serve on browser of your choice: http://localhost:3000/subjects
