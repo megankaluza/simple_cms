@@ -1,32 +1,29 @@
 Rails.application.routes.draw do
 
-  get 'sections/index'
+  root 'demo#index'
 
-  get 'sections/show'
+  get 'admin', :to => 'access#menu'
+  get 'access/menu'
+  get 'access/login'
+  post 'access/attempt_login'
+  get 'access/logout'
 
-  get 'sections/new'
-
-  get 'sections/edit'
-
-  get 'sections/delete'
-
-  get 'pages/index'
-
-  get 'pages/show'
-
-  get 'pages/new'
-
-  get 'pages/edit'
-
-  get 'pages/delete'
+  # get 'sections/index'
+  # get 'sections/show'
+  # get 'sections/new'
+  # get 'sections/edit'
+  # get 'sections/delete'
+  # get 'pages/index'
+  # get 'pages/show'
+  # get 'pages/new'
+  # get 'pages/edit'
+  # get 'pages/delete'
 
   # get 'subjects/index'
   # get 'subjects/show'
   # get 'subjects/new'
   # get 'subjects/edit'
   # get 'subjects/delete'
-
-  root 'demo#index'
 
   resources :subjects do
     member do
