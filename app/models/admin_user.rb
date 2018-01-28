@@ -2,7 +2,7 @@ class AdminUser < ApplicationRecord
 
   # self.table_name = "admin_users"
   has_secure_password
-  
+
   has_and_belongs_to_many :pages
 
   has_many :section_edits
@@ -23,6 +23,12 @@ class AdminUser < ApplicationRecord
   # validates_length_of :email, :maximum => 100
   # validates_format_of :email, :with => EMAIL_REGEX
   # validates_confirmation_of :email
+  
+  scope :sorted, lambda { order('last_name ASC, first_name ASC')}
+
+  def name
+    "#{first_name} #{last_name}"
+  end
 
   # "sexy" validations
   validates :first_name, :presence => true,

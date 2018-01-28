@@ -2,6 +2,12 @@
 
 #### By _**Megan Kaluza**_
 
+# _Login_
+![screenshot](app/assets/images/login.png)
+
+# _Logged In_
+![screenshot](app/assets/images/logged_in.png)
+
 # _Subjects_
 ![screenshot](app/assets/images/screen_shot.png)
 
@@ -38,4 +44,4 @@ _Objectives_
 
 * Launch server: rails s
 
-* Serve on browser of your choice: http://localhost:3000/subjects
+* Serve on browser of your choice: http://localhost:3000/admin
